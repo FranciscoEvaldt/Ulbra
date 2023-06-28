@@ -1,0 +1,35 @@
+// Inserção dos dados em JSON:
+// clients:
+{
+    "id": 2,
+    "nome": "Chico",
+    "endereco": "Av Beira Mar, 456",
+    "telefone": "(51) 98789-5543"
+}
+// pedidos:
+{
+    "id": 2,
+    "id_cliente": 2,
+    "data_hora": "2023-11-23T22:02:00.00""tipo_entrega": "delivery",
+    "total": 37.75
+}
+// pizzas:
+{
+    "id": 2,
+    "nome": "Portuguesa",
+    "tamanho": "Grande",
+    "preco": 47.5
+}
+// bebidas:
+{
+    "id": 2,
+    "nome": "Pepsi",
+    "preco": 4.99
+}
+// itens_pedido:
+{
+    "id": 2,
+    "id_pedido": 2,
+    "id_pizza": 2,
+    "quantidade": 3
+}
