@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0
+    
+}
+
+body{
+    background-image: url(https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg);
+    width: 335;
+    height: 195;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-image: url(https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg);
+    margin-top: 0px;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.container-nav{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}  
+
+.container-nav ul:hover{
+    cursor: pointer;
+    padding: 20px;
+    background-color: darkblue;
+}
+
+.container-nav ul{
+    padding: 5px;
+    margin: 10px 20px;
+    display: inline;
+}
+
+a {
+    font-family: arial;
+    font-style: normal;
+    text-decoration-color: #1a1717;
+    color: #e9e3e3;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    top: 180px;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagem-pequena{
+    height: 320px;
+}
+
